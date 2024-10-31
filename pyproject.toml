@@ -1,0 +1,6 @@
+[tool.mypy]
+strict = true
+
+[[tool.mypy.overrides]]
+module = "inflect.*"
+ignore_missing_imports = true

@@ -1,0 +1,8 @@
+[package]
+name = "pyo3-examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+pyo3 = { version = "0.22.5", features = ["auto-initialize"] }
